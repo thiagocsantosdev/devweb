@@ -1,0 +1,45 @@
+.backimg{
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 700px;
+    border: solid 4px red; 
+    margin-left: 25%;  
+    margin-top: 10%;
+    padding-top: 60px;
+    padding-left:40px;
+    padding-right: 40px;
+    border-radius: 25px;
+    font-family: Helvetica;
+    justify-content: center;
+   
+    
+    
+}
+
+.titulo{
+    text-align: center;
+
+   
+}
+
+.itens{
+    text-align: right;
+    padding-right: 120px;
+}
+
+.atencao{
+    color: red;
+    font-weight: bolder;
+
+}
+
+:required{
+    border: 1px solid red;
+}
