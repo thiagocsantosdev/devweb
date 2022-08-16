@@ -18,8 +18,6 @@
     border-radius: 25px;
     font-family: Helvetica;
     justify-content: center;
-   
-    
     
 }
 
@@ -40,6 +38,39 @@
 
 }
 
+.menusuperior{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 50px;
+    margin-top: -150px;
+    
+    
+    
+}
+
+.botoes{
+    margin-right: 146px;
+    
+    width: 60px;
+    align-content: center;
+    border-bottom: solid 2px red;
+}
+
+.logo{
+    width: 180px;
+    height: 180px;
+    margin-top: 5px;
+}
+
 :required{
     border: 1px solid red;
 }
+
+
+.imagemtopo{
+    width: 1050px;
+    height: 300px;
+    display: inline;
+   }
+
+
