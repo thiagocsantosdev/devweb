@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,90 +8,93 @@
     <title>Manipulando Formularios</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="backimg">
-    
-        <div class="box">
-           <h1 class="titulo">Cadastro</h1>
-           <br><br><br>
 
-    
-    <form class="itens" action="">
-        
-        <label for="form">Categoria do Cliente:
-         <select name="Categoria_do_cliente" required  id="Categoria do Cliente">
-            <option value="placeholder">Escolha uma opção</option>
-            <optgroup label="Varejista">
-            
-            <option value="Material Construcao">Material Construcao</option>
-            <option value="Loja de Variedades">Loja de Variedades</option>
-            <option value="Mercadinho">Mercadinho</option>
-        </optgroup>
-    <optgroup label="Atacadista">
-        <option value="Distrubidor de Material Construcao">Distrubidor de Material de Construção</option>
-        <option value="Lojas do Tipo Atacarejo">Loja do Tipo Atacarejo</option>
-        <option value=""></option>
-    </optgroup>
-         </select>
-        </label>
-        <br>
-        <br>
-        <label for="cliente_ativo">Cliente ativo</label>
-        <input type="checkbox" required   >
-        <br>
-        <br>
-        <label for="nome_fantasia">Nome fantasia:</label>
-        <input type="text" required placeholder="Digite o nome fantasia">
-        <br>
-        <br>
-        <label for="nome_cliente">Nome do cliente:</label>
-        <input type="text" required placeholder="Digite o nome do cliente">
-        <br>
-        <br>
-        <label for="razao_social">Razão social:</label>
-        <input type="text" required placeholder="Digite a razão social">
-        <br>
-        <br>
-        <label for="email">Email do Cliente:</label>
-        <input type="email" required placeholder="cliente@exemplo.com.br">
-        <br><br>
-        <label for="telefone">Telefone para Contato:</label>
-        <input type="text" maxlength="3" value="+55" size="1" disabled title="Disponivel apenas para o Brasil">
-        <input type="text" required  maxlength="11" placeholder="Digite o telefone">
-        <br><br>
+<body>
 
-        <label for="logo">Insira a logo em PDF</label>
-        <input type="file" required accept=".pdf" title="Somente arquivos em PDF">
-        <br>
-        <br> 
-        <label for="site_cliente">Site do Cliente:</label>
-        <input type="url" required placeholder="sitedocliente.com.br">
-        <br>
-        <br>
-        <label for="tipo_juridico">Tipo Juridico:</label>
-        <select name="tipo_juridco" id="tipo_juridico">
-        <option value="option">Selecione uma opção</option>
-        <option value="Mei">MEI</option>
-        <option value="ME">ME</option>
-        <option value="Simples Nacional">Simples Nacional</option>
-         </select>
-         <br><br>
-         <label for="CNPJ">CNPJ:</label>
-         <input type="text" required maxlength="14" >
-         <br><br>
-         <label for="media_compras">Media de Compras:</label>
-         <input type="number" aria-valuemin="1000" aria-valuemax="100000" step="1000" size="6">
-         <br>
-         <p class="atencao">
-            Verifique se todos os dados estão corretos antes
-            de enviar.
-         </p>
-         <BUtton class="botao">Enviar</BUtton>
-         
+    <div class="main">
+        <h1 class="titulo">Cadastro</h1>
+        <br><br><br>
 
 
-        
-    
-    </form>
-</div>
+        <form class="itens" action="">
+
+            <label for="form">Categoria do Cliente: <br>
+                <select name="Categoria_do_cliente" required id="Categoria do Cliente">
+                    <option value="placeholder">Escolha uma opção</option>
+                    <optgroup label="Varejista">
+
+                        <option value="Material Construcao">Material Construcao</option>
+                        <option value="Loja de Variedades">Loja de Variedades</option>
+                        <option value="Mercadinho">Mercadinho</option>
+                    </optgroup>
+                    <optgroup label="Atacadista">
+                        <option value="Distrubidor de Material Construcao">Distrubidor de Material de Construção
+                        </option>
+                        <option value="Lojas do Tipo Atacarejo">Loja do Tipo Atacarejo</option>
+                        <option value=""></option>
+                    </optgroup>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label for="cliente_ativo">Cliente ativo</label>
+            <input type="checkbox" required>
+            <br>
+            <br>
+            <label for="nome_fantasia">Nome fantasia:</label>
+            <input type="text" required placeholder="Digite o nome fantasia">
+             <br>
+             <br>
+            <label for="nome_cliente">Nome do cliente:</label>
+            <input type="text" required placeholder="Digite o nome do cliente">
+             <br>
+             <br>
+            <label for="razao_social">Razão social:</label>
+            <input type="text" required placeholder="Digite a razão social">
+             <br>
+             <br>
+            <label for="email">Email do Cliente:</label>
+            <input type="email" required placeholder="cliente@exemplo.com.br">
+            <br><br>
+            <label for="telefone">Telefone para Contato:</label>
+            <input type="text" maxlength="3" value="+55" size="1" disabled title="Disponivel apenas para o Brasil">
+            <input type="text" required maxlength="11" placeholder="Digite o telefone">
+            <br><br>
+
+            <label for="logo">Insira a logo em PDF</label>
+            <input type="file" required accept=".pdf" title="Somente arquivos em PDF">
+            <br>
+            <br>
+            <label for="site_cliente">Site do Cliente:</label>
+            <input type="url" required placeholder="sitedocliente.com.br">
+            <br>
+            <br>
+            <label for="tipo_juridico">Tipo Juridico:</label>
+            <select name="tipo_juridco" id="tipo_juridico">
+                <option value="option">Selecione uma opção</option>
+                <option value="Mei">MEI</option>
+                <option value="ME">ME</option>
+                <option value="Simples Nacional">Simples Nacional</option>
+            </select>
+            <br><br>
+            <label for="CNPJ">CNPJ:</label>
+            <input type="text" required maxlength="14">
+            <br><br>
+            <label for="media_compras">Media de Compras:</label>
+            <input type="number" aria-valuemin="1000" aria-valuemax="100000" step="1000" size="6">
+            <br>
+            <p class="atencao">
+                Verifique se todos os dados estão corretos antes
+                de enviar.
+            </p>
+            <BUtton class="botao">Enviar</BUtton>
+
+
+
+
+
+        </form>
+    </div>
 </body>
+
 </html>

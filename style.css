@@ -1,24 +1,28 @@
-.backimg{
-    background-size: cover;
-    background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+html{
+    font-size: 62,5%;
+}
+
+
+
+body, html{ 
+    font-family: helvetica;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+
+}
+
+body{
+    font-size: 1.2rem;
+    height: 100vh;
+    
 }
 
 
 .box{
     display: flex;
-    flex-direction: column;
-    width: 600px;
-    height: 700px;
-    border: solid 4px red; 
-    margin-left: 25%;  
-    margin-top: 10%;
-    padding-top: 60px;
-    padding-left:40px;
-    padding-right: 40px;
-    border-radius: 25px;
-    font-family: Helvetica;
-    justify-content: center;
+    flex-direction: row;
     
+   
 }
 
 .titulo{
@@ -29,7 +33,8 @@
 
 .itens{
     text-align: right;
-    padding-right: 120px;
+    padding-right: 40%;
+
 }
 
 .atencao{
@@ -49,11 +54,26 @@
 }
 
 .botoes{
+    color: black;
     margin-right: 146px;
-    
+    text-decoration:none;
+    width: 60px;
+    align-content: center;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.botoes:hover{
+    margin-right: 146px;
+    text-decoration:none;
     width: 60px;
     align-content: center;
     border-bottom: solid 2px red;
+    transform: scale(1.5);
+    transition: 0.5s ease;
+    font-size: 125%;
+    color: red;
 }
 
 .logo{
@@ -73,4 +93,84 @@
     display: inline;
    }
 
+.segunda-img{
+    width: 600px;
+    height: 400;
+    margin-left: 600px;
+    margin-top: -280px;
+}
+
+.fonte-entrada{
+    font-size: 3.0rem;
+    font-family: helvetica;
+    font-weight: 700;
+    color: #392E2C
+    ;
+}
+    
+.spam1{
+    color: red;
+    font-style: italic;
+}
+
+.spam2{
+    font-style: italic;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.fonte-entrada2{
+    font-size: 3.0rem;
+    font-family: helvetica;
+    font-weight: 700;
+    color: #392E2C;
+    margin-left: 750px;
+    
+
+}
+
+.terceira-img{
+    width: 650px;
+    height: 400px;
+    margin-top: -300px;
+}
+
+.paragrafo2{
+ margin-left: 760px;
+ margin-top: -100px;
+}
+
+.prevenda2{
+    margin-left: 760px;
+    
+}
+
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    margin-top: 5%;
+    
+}
+
+.icon-whatsapp{
+    margin-top: 8px;
+    margin-left: 1200px;
+}
+
+.footer-paragrafo{
+    color: white;
+    text-align: center;
+}
+
+.creditos{
+    text-align: center;
+    font-family: helvetica;
+    color: gray;
+}
 
